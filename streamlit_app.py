@@ -3,7 +3,7 @@ import requests
 
 st.set_page_config(page_title="AutoVal — Car Price Predictor", page_icon="🚗", layout="centered")
 
-API_URL = "https://car-prediction-model-x7o6.onrender.com"
+API_URL = "https://car-prediction-model-x7o6.onrender.com/predict"
 
 # ── INJECT CUSTOM CSS + ANIMATIONS ──
 st.markdown("""
